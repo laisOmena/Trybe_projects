@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+ul {
+    background-color: rebeccapurple;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 2em;
+    text-decoration: none;
+}
+p {
+    font-size: 3em;
+    font-weight: 600;
+}
+.background_color {
+    background-color: aliceblue;
+}
+#color_1 {
+    background-color: yellow;
+}
+#color_2 {
+    background-color: red;
+}
+#color_3 {
+    background-color: brown;
+}

@@ -12,16 +12,16 @@ let numbersMult = [];
 
 for (let i = 0; i < numbers.length; i += 1) {
     for (let j = 1; j < numbers.length; j += 1){
-        let mult = numbers[j] * numbers[i]
-        numbersMult.push(mult);
-        numbers[i] = numbers[j];
-        if(j == (numbers.length - 1)){
-            numbersMult.push(numbers[j] * 2);
-            break;
+        let mult = numbers[j] * numbers[i]//multipliando dois numeros em sequência
+        numbersMult.push(mult);//adicionando no array o resultado da multiplicação
+        numbers[i] = numbers[j];//trocando a posição do primeiro número pelo segundo
+        if(j == (numbers.length - 1)){//entrando na condição quando o primeiro for estiver no fim
+            numbersMult.push(numbers[j] * 2);//multiplicando o último número por dois
+            break;//Parando o segundo for
         }
         
     }
-    break;
+    break;//parando o primeiro for.
 }
 
 console.log(numbersMult);

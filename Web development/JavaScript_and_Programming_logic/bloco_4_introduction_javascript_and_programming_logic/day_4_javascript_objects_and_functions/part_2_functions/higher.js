@@ -1,12 +1,16 @@
 function higher(numbers){
     let bigNumber = 0;
-    for (let key of numbers) {
-        if (key > bigNumber) {
-            bigNumber = key;
+    let indice;
+    for (let i = 0; i < numbers.length; i += 1) {
+        if (numbers[i] > bigNumber) {
+            bigNumber = numbers[i];
+            indice = i;
+
         }        
     }
-    return bigNumber;
+
+    return indice;
 }
 
 
-console.log(higher([1, 2, 3, 4, 5]));
+console.log(higher([1, 8, 3, 4, 5]));

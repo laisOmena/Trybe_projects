@@ -49,6 +49,21 @@
         //A partir desse filho criado, acesse terceiroFilho.
         document.body.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.firstElementChild.parentElement.parentElement.nextElementSibling;
         
+
+        //Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho
+        document.body.firstElementChild.firstElementChild.firstElementChild.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.nextSibling.nextSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.nextSibling.nextSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.nextSibling.nextSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.nextSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.nextSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.firstElementChild.nextSibling.remove();
+        document.body.firstElementChild.firstElementChild.firstElementChild.firstElementChild.removeChild();
+        
+
       </script>
 </body>
 </html>

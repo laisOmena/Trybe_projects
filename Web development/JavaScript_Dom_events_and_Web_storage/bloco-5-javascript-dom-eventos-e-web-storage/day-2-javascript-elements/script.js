@@ -20,3 +20,13 @@ for(let i = 0; i < ingredientItems.length; i += 1){ //Percorrendo o array ingred
 
     ingredientList.appendChild(ingredientListItem);//Inserindo a variavel ingredientListItem como filha de ingredientList
 }
+
+let ingredientListItem = document.querySelectorAll('.ingredients-list-item');
+
+for(let i = 0; i < ingredientListItem.length; i += 1) {
+    let element = ingredientListItem[i];
+
+    if(element.innerText.includes('toucinho')) {
+        ingredientList.removeChild();
+    }
+}

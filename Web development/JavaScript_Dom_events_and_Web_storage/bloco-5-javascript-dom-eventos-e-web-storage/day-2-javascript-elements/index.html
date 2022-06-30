@@ -37,6 +37,18 @@
         //Agora acesse o terceiroFilho a partir de pai
         document.getElementById('pai').firstElementChild.nextElementSibling.nextElementSibling;
 
+        //Crie um irmão para elementoOndeVoceEsta.
+        let irmao = document.createElement('section');
+        pai.appendChild(irmao);
+        //Crie um filho para elementoOndeVoceEsta. 
+        let outroFilhoOndeVoceEsta = document.createElement('section');
+        elementoOndeVoceEsta.appendChild(outroFilhoOndeVoceEsta);
+        //Crie um filho para primeiroFilhoDoFilho.
+        let filho0103 = document.createElement('p');
+        primeiroFilhoDoFilho.appendChild(filho0103);
+        //A partir desse filho criado, acesse terceiroFilho.
+        document.body.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.firstElementChild.parentElement.parentElement.nextElementSibling;
+        
       </script>
 </body>
 </html>

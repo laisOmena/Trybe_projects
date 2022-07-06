@@ -14,28 +14,32 @@
     <section>
         <form action="" method="POST" class="form-trip">
             <label for="name-input">Nome:</label>
-            <input type="text" placeholder="Digite seu nome" id="name-input" >
+            <input type="text" placeholder="Digite seu nome" id="name-input" minlength="10" maxlength="40" >
             <br>
             <label for="email-input">Email:</label>
-            <input type="email" placeholder="Digite seu email" name="email" id="email-input">
+            <input type="email" placeholder="Digite seu email" name="email" id="email-input" minlength="10" maxlength="50">
             <br>
-            <input type="radio"> Opção 1
-            <input type="radio"> Opção 2
-            <input type="radio"> Opção 3
-            <input type="radio"> Opção 4
+            <fieldset>
+                <legend>Destino preferido:</legend>
+                <input type="radio"> Cidade
+                <input type="radio"> Campo
+                <input type="radio"> Praia
+                <input type="radio"> Montanhas
+            </fieldset>
             <br>
-            <label for="input-textarea">Espaço para digitar a resposta:</label>
+            <label for="input-textarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
             <br>
-            <textarea name="resposta" id="input-textarea" cols="30" rows="10"></textarea>
+            <textarea name="resposta" id="input-textarea" cols="30" rows="10" maxlength="500" placeholder="Espaço para digitar a resposta"></textarea>
             <br>
-            <label for="input-date">Data:</label>
+            <label for="input-date">Qual a melhor data para realizar sua viagem?</label>
+            <br>
             <input type="date" id="input-date">
             <br>
-            <label for="input-checkbox1">Concordo 1</label>
             <input type="checkbox" name="option 1" id="input-checkbox1">
+            <label for="input-checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
             <br>
-            <label for="input-checkbox2">Concordo 2</label>
             <input type="checkbox" name="option 2" id="input-checkbox2">
+            <label for="input-checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
         </form>
     </section>
     <button type="submit" id="input-enviar">Enviar</button>

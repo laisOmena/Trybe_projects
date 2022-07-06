@@ -36,6 +36,10 @@
     vertical-align: middle;
     width: 13.6%;
   }
+
+  .holiday {
+    background-color: #777;
+  }
   
   .input-container {
     width: 49%;

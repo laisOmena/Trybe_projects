@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TrybeTrip</title>
+</head>
+<body>
+    <header>
+        <h1>Trybe Trip Form</h1>
+    </header>
+    <section>
+        <form action="" method="POST" class="form-trip">
+            <label for="name-input">Nome:</label>
+            <input type="text" placeholder="Digite seu nome" id="name-input" >
+            <br>
+            <label for="email-input">Email:</label>
+            <input type="email" placeholder="Digite seu email" name="email" id="email-input">
+            <br>
+            <input type="radio"> Opção 1
+            <input type="radio"> Opção 2
+            <input type="radio"> Opção 3
+            <input type="radio"> Opção 4
+            <br>
+            <label for="input-textarea">Espaço para digitar a resposta:</label>
+            <br>
+            <textarea name="resposta" id="input-textarea" cols="30" rows="10"></textarea>
+            <br>
+            <label for="input-date">Data:</label>
+            <input type="date" id="input-date">
+            <br>
+            <label for="input-checkbox1">Concordo 1</label>
+            <input type="checkbox" name="option 1" id="input-checkbox1">
+            <br>
+            <label for="input-checkbox2">Concordo 2</label>
+            <input type="checkbox" name="option 2" id="input-checkbox2">
+        </form>
+    </section>
+    <button type="submit" id="input-enviar">Enviar</button>
+    <button type="submit" id="input-apagar">Apagar</button>
+</body>
+</html>

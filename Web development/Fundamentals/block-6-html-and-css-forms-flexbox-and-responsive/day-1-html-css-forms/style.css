@@ -1,0 +1,13 @@
+.form-trip {
+    border: solid black 1px;
+    padding: 1rem;
+    width: 25%;
+}
+
+button {
+    margin: 1rem;
+}
+
+input {
+    margin: 0.5rem;
+}

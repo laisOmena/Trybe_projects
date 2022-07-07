@@ -14,10 +14,10 @@
     <section>
         <form action="" method="GET" class="form-trip">
             <label for="name-input">Nome:</label>
-            <input type="text" class="redondo" placeholder="Digite seu nome" id="name-input" minlength="10" maxlength="40" >
+            <input type="text" class="redondo" placeholder="Digite seu nome" id="name-input" >
             <br>
             <label for="email-input">Email:</label>
-            <input type="email" class="redondo" placeholder="Digite seu email" name="email" id="email-input" minlength="10" maxlength="50">
+            <input type="email" class="redondo" placeholder="Digite seu email" name="email" id="email-input" >
             <br>
             <fieldset>
                 <legend>Destino preferido:</legend>
@@ -39,11 +39,11 @@
             <input type="checkbox" name="option 1" id="input-checkbox1">
             <label for="input-checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
             <br>
-            <input type="checkbox" name="option 2" id="input-checkbox2">
+            <input type="checkbox" name="option 2" id="input-checkbox2" checked>
             <label for="input-checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
             <div class="btn">
                 <button type="reset" name="apagar" id="input-apagar">Apagar</button>
-                <input type="button" name="enviar" id="input-enviar" value="Enviar">
+                <button type="submit" name="enviar" id="input-enviar">Enviar</button>
             </div>
         </form>
     </section>

@@ -11,7 +11,7 @@
   }
   
   body {
-  
+    font-size: medium;
   }
   
   article {
@@ -19,7 +19,7 @@
   }
   
   h1 {
-  
+    font-size: 32px;
   }
   
   h2 {
@@ -35,7 +35,8 @@
   }
   
   section {
-  
+    display: flex;
+    flex-direction: column;
   }
   
   figure {
@@ -44,4 +45,29 @@
   
   figcaption {
     font-size: .8em;
+  }
+
+  @media screen and (max-width: 450px) {
+    body {
+      font-size: larger;
+      margin: 1rem;
+    }
+
+    h1{
+      font-size: 25px;
+    }
+
+    section {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .row-colunm1 .row-colunm2 {
+      display: flex;
+      flex-flow: column wrap;      
+    }
+
+    figure {
+      padding: 10px;
+    }
   }

@@ -1,0 +1,62 @@
+@media screen and (max-width: 450px) {
+    body {
+      font-size: larger;
+      margin: 1rem;
+      text-align: center;
+      background-color: rgb(132, 137, 137);
+    }
+
+    h1{
+      font-size: 25px;
+    }
+
+    section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    .row-colunm1, .row-colunm2 {
+      flex-flow: column wrap;
+      flex-basis: 50%;   
+    }
+
+    figure {
+      padding: 10px;
+    }
+
+    img {
+        border-radius: 100%;
+    }
+  }
+
+
+  @media screen and (min-width: 1020px) {
+    body {
+        background-color: palevioletred;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    h1, h2, p, figcaption{
+        color: aliceblue;
+    }
+    
+    section {
+        max-width: 700px;
+        margin: 0 auto;
+        
+    }
+
+    .row-colunm1, .row-colunm2 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      
+    }
+
+    img {
+        border-radius: 20px;
+    }
+  }
